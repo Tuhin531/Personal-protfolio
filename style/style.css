@@ -12,6 +12,14 @@
     background-color: #fd6e0a;
     padding: 18px  35px;
 }
+.header{
+    background-color: #ffffff;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+   
+    background-repeat: no-repeat;
+    background-position: bottom right ,left ;
+   
+}
 /* Hearder and nav title  */
 nav{
     display: flex;
@@ -39,6 +47,7 @@ nav li{
     display: flex;
     align-items: center;
 }
+
 .ban-title{
   font-weight: 700;
   font-size: 75px;
@@ -55,4 +64,45 @@ nav li{
     margin-bottom: 30px;
   
 
+}
+/* Section part  */
+main{
+    max-width: 1140px;
+    margin:  0 auto;
+}
+.about{
+    margin-top: 130px;
+    background-color: #fff8f3;
+    border-radius: 10px;
+    padding: 30px;
+    font-weight: 700px;
+    font-size: 35px;
+    
+
+}
+.section-about{
+
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+.about-info-comtainer{
+    display: flex;
+    justify-content: space-around;
+}
+.about .info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-description{
+    font-weight: 700px;
+    font-size: 20px;
+    color:#757575
 }
