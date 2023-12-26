@@ -2,6 +2,16 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+.btn-primary{
+    color: #ffffff;
+    font-weight: 700px;
+    font-size: 20px;
+    height: 64px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fd6e0a;
+    padding: 18px  35px;
+}
 /* Hearder and nav title  */
 nav{
     display: flex;
@@ -14,11 +24,35 @@ nav{
 }
 nav ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
     margin-left: 50px;
 }
 .text-primary{
-    color: red;
+    color: #fd6e0a;
+}
+/* Banner part */
+.banner{
+    margin: 0  200px;
+    display: flex;
+    align-items: center;
+}
+.ban-title{
+  font-weight: 700;
+  font-size: 75px;
+
+}
+.ban-sub-title{
+
+    font-weight: 60px;
+    font-size: 45PX;
+    margin-bottom: 20px;
+}
+.ban-discription{
+    color: #757575;
+    margin-bottom: 30px;
+  
+
 }
