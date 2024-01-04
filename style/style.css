@@ -115,9 +115,11 @@ main{
     font-size: 50px;
 
 }
+/* skill part */
 .skill-container{
     display: flex;
     gap: 24px;
+    
 }
 .skill-title{
     font-weight: 700px;
@@ -205,4 +207,61 @@ main{
 
 
 
+}
+/* Responsive contant */
+
+@media screen and (max-width: 576px) {
+    .btn-primary{
+        margin: 10px;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .header{
+        background-image: none;
+    }
+    nav ul{
+        gap:20px
+    }
+   
+   
+     nav, nav ul, .banner , .skill-container , .resume-contant{
+    flex-direction: column;
+    }
+    .resume-contant{
+        text-align: center;
+        padding: 0px 10px;
+    }
+    .about-info-comtainer{
+            flex-direction: column;
+            gap:20px;
+            text-align: center;
+            
+        
+
+    }
+    .contract{
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+    .contract input[type="text"], input[type="email"], textarea{
+        padding: 20px 30px;
+        width: 75%;
+       
+    }
+    
+}
+
+ @media screen and(min-width: 577px) and (max-width:992px ) {
+    .skill-container{
+        
+    }
+    
+
+} 
+
+
+
+.hide{
+    display: none;
 }
